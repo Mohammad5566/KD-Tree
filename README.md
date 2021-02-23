@@ -7,4 +7,4 @@ This implementation only accounts for 2 dimensions, X and Y, but it is easily ge
   <img src="https://i.imgur.com/7Duq2W0.png" />
 </p>
 
-<em> UC Berkeley CS 61B Data Structures, Josh Hug
+<em>Content by Josh Hug, UC Berkeley CS 61B Data Structures
