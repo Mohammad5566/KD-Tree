@@ -3,6 +3,9 @@ package Trees.KDTree;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+@author Mohammad Mahmud
+*/
 public class NaivePointSet implements PointSet {
 
     private List<Point> pointList;
