@@ -12,7 +12,7 @@ public class KDTreeTest {
     PointSet nps;
     KDTree kd;
 
-    /*Insert N random points into NaivePointSet and KDTree. */
+    /* Insert N random points into NaivePointSet and KDTree. */
     @Before
     public void setup() {
         List<Point> input = generatePoints(100000);
@@ -50,12 +50,6 @@ public class KDTreeTest {
         System.out.println("NaivePointSet took: " + npsWatch.elapsedTime());
     }
 
-
-
-
-
-
-
     /*Generate a list of N random points. */
     private List<Point> generatePoints(int N) {
         List<Point> points = new ArrayList<>();
@@ -75,8 +69,4 @@ public class KDTreeTest {
         }
         return points;
     }
-
-
-
-
 }
